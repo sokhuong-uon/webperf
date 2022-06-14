@@ -1,12 +1,14 @@
 import Agenda from "./components/Agenda";
+import Example from "./components/Example";
 import Intro from "./components/Intro";
 import Main from "./components/Main";
+import Todo from "./components/Todo";
 import What from "./components/What";
 import Why from "./components/Why";
 
 function App() {
 	return (
-		<main className="relative flex flex-col w-screen h-screen overflow-hidden bg-black">
+		<main className="relative flex flex-col w-screen h-screen overflow-hidden bg-black select-none">
 			<div className="absolute w-full h-full ">
 				<Main />
 			</div>
@@ -22,6 +24,12 @@ function App() {
 				</div>
 				<div className="w-full h-full snap-center ">
 					<Why></Why>
+				</div>
+				<div className="w-full h-full snap-center ">
+					<Todo></Todo>
+				</div>
+				<div className="w-full h-full snap-center ">
+					<Example></Example>
 				</div>
 			</div>
 		</main>

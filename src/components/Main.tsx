@@ -4,7 +4,7 @@ const Main = () => {
 	return (
 		// <div className=""></div>
 		<Canvas className="absolute inset-0 z-0 flex-shrink-0 w-full h-full">
-			<mesh position={[2, 0, 0]}>
+			<mesh position={[2, 0, 0]} visible={false}>
 				<boxBufferGeometry />
 				<meshBasicMaterial />
 			</mesh>
