@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +6,12 @@
 .hidescrollbar::-webkit-scrollbar {
 	display: none;
 }
+h1 {
+	font-family: "Nousu SIL", serif;
+	@apply underline underline-offset-1;
 
+	text-decoration-color: #361d32;
+}
 /* Hide scrollbar for IE, Edge and Firefox */
 .hidescrollbar {
 	-ms-overflow-style: none;

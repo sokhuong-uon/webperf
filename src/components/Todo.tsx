@@ -8,6 +8,7 @@ const Todo = () => {
 				<ul className="flex flex-col justify-start w-full gap-24 pt-20 my-auto text-6xl font-normal text-white list-disc list-inside h-4/5 ">
 					<li>Convert images to web-friendly format </li>
 					<li>Compress video/audio file </li>
+					<li>Enough is probably enough (size, (r,g,b,a?)) </li>
 				</ul>
 			</section>
 		</div>
