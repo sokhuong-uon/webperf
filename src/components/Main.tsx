@@ -104,14 +104,14 @@ function Items() {
 	return (
 		<Scroll>
 			<Item
-				url="jpg/1.jpg"
+				url="webp/1.webp"
 				scale={[w / 2.5, w / 2.5, 1]}
 				//@ts-no-check
 				//@ts-ignore
 				position={[w / 8, 0, 0]}
 			/>
 			<Item
-				url="jpg/4.jpg"
+				url="webp/4.webp"
 				scale={[w / 5, w / 5, 1]}
 				//@ts-no-check
 				//@ts-ignore
@@ -119,21 +119,21 @@ function Items() {
 			/>
 			{/* <Item url="jpg/2.jpg" scale={[2, w / 3, 1]} position={[w / 30, -h, 0]} /> */}
 			<Item
-				url="jpg/3.jpg"
+				url="webp/3.webp"
 				scale={[w / 3, w / 5, 1]}
 				//@ts-no-check
 				//@ts-ignore
 				position={[-w / 4, -h * 1, 0]}
 			/>
 			<Item
-				url="jpg/5.jpg"
+				url="webp/5.webp"
 				scale={[w / 5, w / 5, 1]}
 				//@ts-no-check
 				//@ts-ignore
 				position={[-w / 10, -h * 1.75, 0]}
 			/>
 			<Item
-				url="jpg/6.jpg"
+				url="webp/6.webp"
 				scale={[w / 3, w / 3, 1]}
 				//@ts-no-check
 				//@ts-ignore
@@ -145,14 +145,14 @@ function Items() {
 				position={[-w / 4, -h * 2.6, 0]}
 			/> */}
 			<Item
-				url="jpg/8.jpg"
+				url="webp/8.webp"
 				scale={[w / 2, w / 3, 1]}
 				//@ts-no-check
 				//@ts-ignore
 				position={[w / 4, -h * 3.1, 0]}
 			/>
 			<Item
-				url="jpg/12.jpg"
+				url="webp/12.webp"
 				scale={[w / 3, w / 2, 1]}
 				//@ts-no-check
 				//@ts-ignore
